@@ -13,17 +13,31 @@ module.exports = {
 
 serviceWorker: true,
 
+ themeConfig: {
+        // 你的GitHub仓库，请正确填写
+        repo: 'https://github.com/NilesKio/vuepressBlog',
+        // 自定义仓库链接文字。
+        repoLabel: 'My GitHub',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: '搭建心得', link: '/blog/haha1.md' }
+        ]
+
+  sidebar: [
+      ['/', '首页'],
+      ['/blog/haha1.md', '搭建心得']
+    ]
+
+​    }
+
+
+
+
+
+
+
   base: '/', // 这是部署到github相关的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
-  themeConfig: {
-    nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
-      {text: '微博', link: 'https://baidu.com'}      
-    ],
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
-  }
 };
