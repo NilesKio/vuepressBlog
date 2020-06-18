@@ -21,10 +21,22 @@ serviceWorker: true,
         // 自定义仓库链接文字。
         repoLabel: 'My GitHub',
 
+
+
+sidebar: [
+      ['/', '首页'],
+      ['/blog/haha1.md', '我的第一篇博客']
+    ],
+
   nav:[ // 导航栏配置
       { text: 'Home', link: '/' },
             { text: '第一篇博客', link: '/blog/haha1.md' }     
     ]
+
+
+
+
+
   }
 
 };
