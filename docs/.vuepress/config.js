@@ -25,12 +25,14 @@ serviceWorker: true,
 
 sidebar: [
       ['/', '首页'],
-      ['/blog/haha1.md', '我的第一篇博客']
+      ['/blog/haha1.md', '我的第一篇博客'],
+	  ['/blog/xd.md', '搭建心得']
     ],
 
   nav:[ // 导航栏配置
       { text: 'Home', link: '/' },
-            { text: '第一篇博客', link: '/blog/haha1.md' }     
+            { text: '第一篇博客', link: '/blog/haha1.md' },
+{ text: '搭建心得', link: '/blog/xd.md' }			
     ]
 
 
