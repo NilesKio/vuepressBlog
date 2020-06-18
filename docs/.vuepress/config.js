@@ -15,17 +15,17 @@ serviceWorker: true,
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
-themeConfig: {
-        // 你的GitHub仓库，请正确填写
-        repo: 'https://github.com/NilesKio/vuepressBlog.git',
+  themeConfig: {
+
+ repo: 'https://github.com/xxxxxxx/blog-demo',
         // 自定义仓库链接文字。
         repoLabel: 'My GitHub',
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: '第一篇博客', link: '/blog/haha1.md' }
-        ]
 
-
-
-​    }
+  nav:[ // 导航栏配置
+      { text: 'Home', link: '/' },
+            { text: '第一篇博客', link: '/blog/haha1.md' }     
+    ],
+    sidebar: 'auto', // 侧边栏配置
+    sidebarDepth: 2, // 侧边栏显示2级
+  }
 };
